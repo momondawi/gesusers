@@ -1,0 +1,118 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+#entete, #pied, #corps{
+	width: 100%;
+	margin: 0px;
+}
+
+#pied, #menu li a{
+	color: white;
+	text-align: center;
+	background-color: black;
+}
+
+#entete{
+	height: 127px;
+	text-transform: uppercase;
+	font-family: "Agency FB";
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	margin-top: 0px;
+}
+
+#entete>h1{	
+	color: white;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+#menu{
+	border-top: solid 2px white;
+}
+
+#menu ul{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	margin: 0px;
+}
+
+#menu li{
+	display: inline-block;
+	border-left: solid 2px white;
+	height: 100%;
+}
+
+#menu li:last-child{
+	border-right: solid 2px white;
+}
+
+#menu li a{
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+#corps{
+	height: 80%;
+	padding: 0px 5px;
+}
+
+#pied{
+	position: absolute;
+	height: 6%;
+	left: 0px;
+	top: 95%;
+	padding-top: 5px;
+	margin-top: 5px;
+}
+
+#titre-principal{
+	text-align: center;
+	font-family: "Agency FB";
+}
+
+table,th,td{
+	border: solid 1px;
+	padding: 5px;
+}
+
+tr:first-child{
+	border: solid 1px green;
+	color: white;
+	background-color: black;
+}
+
+table{
+	width: fit-content;
+	margin: auto;
+	border-collapse: collapse;
+}
+
+form{
+	width: 50%;
+	margin: auto;
+	margin-bottom: 5px;
+	padding: 10px;
+	border-radius: 20px;
+	border: outset 2px grey;
+}
+
+.messageBox{
+	font-size: 1.2em; 
+}
+
+.erreur{
+	color: red;
+	text-align: center;
+}
+
+.succes{
+	color: green;
+	text-align: center;
+}
